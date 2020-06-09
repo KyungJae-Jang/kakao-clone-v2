@@ -9,6 +9,7 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find | Kakao Clone</title>
   </head>
   <body>
@@ -21,8 +22,8 @@
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
 
@@ -45,7 +46,7 @@
     <main class="find">
       <!-- Header-->
       <header class="find__header">
-        <ul class="find header-list">
+        <ul class="find__header-list">
           <li class="find__header-btn header-btn">
             <span class="header-btn__icon">
               <i class="fas fa-qrcode fa-2x"></i>
@@ -88,7 +89,7 @@
         </h5>
         <li class="find__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/puppy.jpeg" class="g-avatar friend__avatar" />
+            <img src="images/puppy.jpeg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 KyungJae
@@ -129,5 +130,10 @@
         </li>
       </ul>
     </nav>
+
+    <!-- bigScreen -->
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
